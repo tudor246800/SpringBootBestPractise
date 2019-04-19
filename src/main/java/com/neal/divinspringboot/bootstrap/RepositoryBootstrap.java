@@ -13,10 +13,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @ComponentScan(basePackages="com.neal.divinspringboot.repository")
 public class RepositoryBootstrap {
-    /**
-     *  psvm
-     * @param args
-     */
+
     public static void main(String[] args) {
         ConfigurableApplicationContext context= new  SpringApplicationBuilder(RepositoryBootstrap.class)
                 .web(WebApplicationType.NONE)
